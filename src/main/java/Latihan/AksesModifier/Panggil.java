@@ -8,7 +8,7 @@ public class Panggil {
 
         objek.nama = "deni gunawan";
         objek.alamat = "Kp. Payangan";
-//
+
 //        objek.umur = 25;  // private
 //        objek.nik = 20 ;  // protected
         }
