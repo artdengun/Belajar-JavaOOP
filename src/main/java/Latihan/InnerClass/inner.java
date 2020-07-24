@@ -55,5 +55,27 @@ public class inner {
         private String namaStaff;
         private String staff;
 
+        //SETTER
+
+        public void setNamaStaff(String namaStaff){
+            this.namaStaff = namaStaff;
+        }
+
+        // getter
+
+        public String getNamaStaff(){
+            return namaStaff;
+        }
+
+        //setter
+        public void setStaff(String staff){
+            this.staff = staff;
+        }
+
+        // getter
+        public String getStaff(){
+            return staff;
+        }
+
     }
 }

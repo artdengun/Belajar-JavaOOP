@@ -1,5 +1,4 @@
 package Latihan.Interfaces;
-
 public class Dosen implements MahasiswaRepository, NilaiMahasiswaRepository {
 
     public void namaMahasiswa() {

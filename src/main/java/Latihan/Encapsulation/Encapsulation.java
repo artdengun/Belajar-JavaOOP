@@ -12,7 +12,7 @@ public class Encapsulation {
     }
     // KIita bisa modif file disini
     // prosedur
-        public void setNama(){
+        public void setNama(String nama){
             this.nama = nama;
         }
         // fuction
@@ -20,15 +20,15 @@ public class Encapsulation {
             return  this.addres;
         }
         // prosedur
-        public void setAddres(){
+        public void setAddres(String addres){
             this.addres = addres;
+        }
+        // prosedur
+        public void setUmur(int umur){
+            this.umur = umur;
         }
         // function
         public int getUmur(){
             return this.umur;
-        }
-        // prosedur
-        public void setUmur(){
-            this.umur = umur;
         }
 }

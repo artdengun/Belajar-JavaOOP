@@ -7,6 +7,13 @@ public class PanggilInnerClass {
         inner.Dosen objekDosen = objek.new Dosen();
         inner.Staff objekStaff = objek.new Staff();
 
+        objekDosen.setDosen("dosen");
+        System.out.println(objekDosen.getDosen());
+
+        objekStaff.setNamaStaff("namaStaff");
+        System.out.println(objekStaff.getNamaStaff());
+
+
         objekMahasiswa.getNamaMahasiswa("denigunawan "," deni ");
         objekMahasiswa.getDosenMahasiswa("ridwan");
         System.out.println(objekMahasiswa.setNamaMahasiswa());

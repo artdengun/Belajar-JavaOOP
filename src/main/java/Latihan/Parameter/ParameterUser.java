@@ -10,7 +10,7 @@ public class ParameterUser {
 
     int Menghtung(int berat, int tinggi) {
          int MenghitungBerat = berat - tinggi;
-         return berat;
+         return MenghitungBerat;
     }
 
     String Manusia(String wkwkw , String Bawawaan){

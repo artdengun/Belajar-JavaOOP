@@ -1,21 +1,14 @@
 package Latihan.JavaBeans;
 
 public class PanggilBean {
-    public static void main(String[] args) {
+    public static void main(String[] x){
         Bean objek = new Bean();
-
-       objek.setNama("Deni Gunawan");
-       objek.setPanggilan("deni");
-       objek.setAlamat("kp. payangan");
-       objek.setUmur(23);
-       objek.setBerat(50);
+        objek.setNama("deni gunawan");
+        objek.setPanggilan("gunawan");
+        objek.setAlamat("kp payangan");
         System.out.println(objek.getNama());
-        System.out.println(objek.getAlamat());
         System.out.println(objek.getPanggilan());
-        System.out.println(objek.getUmur());
-        System.out.println(objek.getBerat());
-
-    }
+        System.out.println(objek.getAlamat());
+    } 
+    
 }
-
-
